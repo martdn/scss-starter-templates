@@ -1,0 +1,17 @@
+{
+  "name": "scss-starter-templates",
+  "version": "1.0.0",
+  "description": "Minimal template for a quick start , consisting of scss, compass, lite-server.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start": "concurrently \"compass watch\" \"npm run lite\""
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.0"
+  }
+}
